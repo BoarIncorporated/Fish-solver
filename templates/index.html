@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fish Solver - FunCaptcha Solver</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #1e3a8a;
+      color: #ffffff;
+    }
+    .cta-button {
+      padding: 14px 30px;
+      background-color: #2563eb;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-weight: bold;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+    .cta-button:hover {
+      background-color: #1d4ed8;
+    }
+    section {
+      padding: 100px 0;
+    }
+    .hero-bg {
+      background-image: url('https://source.unsplash.com/1600x900/?technology,code');
+      background-size: cover;
+      background-position: center;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .parallax {
+      background: rgba(0, 0, 0, 0.6) url('https://source.unsplash.com/1600x900/?nature,forest') no-repeat center center fixed;
+      background-size: cover;
+      height: 100vh;
+    }
+    .fade-in {
+      animation: fadeIn 1.5s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    .feature-card {
+      background-color: #2563eb;
+      padding: 20px;
+      border-radius: 10px;
+      transition: transform 0.3s ease-in-out;
+    }
+    .feature-card:hover {
+      transform: translateY(-10px);
+    }
+    .testimonial-card {
+      background-color: #1e40af;
+      padding: 20px;
+      border-radius: 10px;
+      transition: transform 0.3s ease-in-out;
+    }
+    .testimonial-card:hover {
+      transform: translateY(-10px);
+    }
+    .testimonials-section {
+      background-color: #1e40af;
+      padding: 50px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero-bg text-center text-white">
+    <div class="hero-content text-center">
+      <h1 class="text-5xl font-extrabold leading-tight mb-4" data-aos="fade-up" data-aos-duration="1200">Unlock the Future of Captcha Solving</h1>
+      <p class="text-xl mb-6" data-aos="fade-up" data-aos-duration="1500">Introducing Fish Solver - The Most Reliable and Fast FunCaptcha Solver</p>
+      <a href="#contact" class="cta-button" data-aos="fade-up" data-aos-duration="1800">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Features Section -->
+  <section id="features" class="bg-blue-800 py-12 text-center text-white fade-in">
+    <h3 class="text-4xl font-bold mb-8">Why Choose Fish Solver?</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8 px-6">
+      <div class="feature-card" data-aos="fade-up" data-aos-duration="1000">
+        <h4 class="text-2xl font-semibold mb-4">Fast and Efficient</h4>
+        <p>Fish Solver can handle FunCaptcha challenges quickly, ensuring the best response time for your needs.</p>
+      </div>
+      <div class="feature-card" data-aos="fade-up" data-aos-duration="1200">
+        <h4 class="text-2xl font-semibold mb-4">Reliable Accuracy</h4>
+        <p>Fish Solver is optimized for a 99% accuracy rate, so you can rely on it to solve your captchas every time.</p>
+      </div>
+      <div class="feature-card" data-aos="fade-up" data-aos-duration="1400">
+        <h4 class="text-2xl font-semibold mb-4">Easy Integration</h4>
+        <p>Simple API to integrate into your workflow with no hassle. Set up and start solving FunCaptchas in minutes!</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Parallax Section -->
+  <section class="parallax flex justify-center items-center text-white">
+    <div class="text-center px-8 py-12 fade-in">
+      <h2 class="text-4xl font-semibold mb-6">We Are Always Improving</h2>
+      <p class="text-lg mb-6">With continuous updates and support, Fish Solver is your go-to tool for all FunCaptcha challenges.</p>
+      <a href="#contact" class="cta-button">Join Our Community</a>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="testimonials-section text-white text-center">
+    <h3 class="text-4xl font-bold mb-8">What Our Users Say</h3>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6">
+      <div class="testimonial-card" data-aos="fade-up" data-aos-duration="1000">
+        <p class="text-xl mb-4">"Fish Solver has revolutionized how we handle captchas. It's lightning fast and accurate!"</p>
+      </div>
+      <div class="testimonial-card" data-aos="fade-up" data-aos-duration="1200">
+        <p class="text-xl mb-4">"Best FunCaptcha solver I've used so far. Couldn't imagine going back to anything else!"</p>
+      </div>
+      <div class="testimonial-card" data-aos="fade-up" data-aos-duration="1400">
+        <p class="text-xl mb-4">"Simple integration, stellar support, and consistent results. Highly recommend!"</p>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-12 px-6 bg-blue-900 text-center text-white fade-in">
+    <h3 class="text-3xl font-bold mb-6">📞 Get In Touch</h3>
+    <p class="text-lg mb-4">Have questions or need help? Join our Discord server!</p>
+    <a href="https://discord.gg/yourdiscordlink" target="_blank" class="cta-button">Join Our Discord</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-700 py-6 text-center text-white fade-in">
+    <p>© 2025 Fish Solver. All rights reserved.</p>
+  </footer>
+
+  <script>
+    AOS.init(); // Initialize AOS animations
+  </script>
+
+</body>
+</html>

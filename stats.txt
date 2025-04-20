@@ -1,0 +1,4 @@
+Silent Passes: 12267
+Skipped Variants: 41
+Failed Solves: 2000
+Successful Solves: 2395
